@@ -6,3 +6,30 @@ Gene transcription is an essential process involved in all aspects of cellular f
 The DNN architecture consists of two separate paths representing the genetic view and the epigenetic view. Each path starts with a CNN layer which is then passed to a ReLU function connected to max pooling. It then uses bi-directional long short-term memory (BiLSTM) networks with attention mechanism to capture the short-range and long-range dependencies. The learnt attention of the two views are concatenated and given to a fully connected network to predict gene transcription levels.
 
 ![DeepCORE_Fig2](https://github.com/pbchandr/DeepCORE/assets/18314073/c8237a71-b4f4-45ee-a2e0-b031de6506c0)
+
+
+
+
+
+
+## MIT License
+
+Copyright (c) 2023 Pramod Bharadwaj Chandrashekar
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
